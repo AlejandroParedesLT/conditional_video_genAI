@@ -1,0 +1,11 @@
+#!/bin/bash
+#SBATCH -t 0:10:00  # time requested in hour:minute:second
+#SBATCH --mem=4G
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --constraint=a6000
+#SBATCH --partition=compsci-gpu
+#SBATCH --output=slurm_%j.out
+#srun source .pt2/bin/activate
+#srun virtualenv --no-download $SLURM_TMPDIR/env
+
