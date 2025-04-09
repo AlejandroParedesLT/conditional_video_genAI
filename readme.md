@@ -10,6 +10,8 @@ Stable Video Diffusion (SVD) is a diffusion-based AI model that transforms a sin
 - SVD-XT for longer video generation (25 frames)
 - SV3D for 3D-aware video generation with camera control
 
+![Duke University Dog](ezgif-539084e01519c8.gif)
+
 ## Features
 
 - Generate videos from a single image or batch process multiple images in a folder
